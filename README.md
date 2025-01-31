@@ -41,6 +41,22 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
 />
 <img 
     align="left" 
+    alt="Vue.JS" 
+    title="Vue.JS"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" 
+/>
+<img 
+    align="left" 
+    alt="Next.JS" 
+    title="Next.JS"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" 
+/>
+<img 
+    align="left" 
     alt="React"
     title="React" 
     width="30px" 
@@ -49,11 +65,19 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
 />
 <img 
     align="left" 
-    alt="Next.js" 
-    title="Next.js"
+    alt="Vite.JS" 
+    title="Vite.JS"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" 
+    src="ttps://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="Oracle" 
+    title="Oracle"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" 
 />
 <img 
     align="left" 
@@ -81,11 +105,11 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
 />
 <img 
     align="left" 
-    alt="PHP" 
-    title="PHP"
+    alt="Redux" 
+    title="Redux"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" 
 />
 <img 
     align="left" 
@@ -117,8 +141,9 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
     title="Python"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" 
 />
+
 
 <br/>
 <br/>
