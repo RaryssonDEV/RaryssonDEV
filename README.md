@@ -1,6 +1,6 @@
 ## 👩‍💻 Rarysson Ferreira
 
-**`Desenvolvedora FullStack`**
+**`Desenvolvedor FullStack`**
 
 Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento Full Stack. Tenho experiência prática em HTML, CSS, JavaScript, Bootstrap e manipulação do DOM, além de conhecimentos em banco de dados (Oracle PL/SQL). Já desenvolvi projetos utilizando React, Redux e JSON Server, trabalhando com controle de estado global e responsividade. Além disso, possuo habilidades em gestão de versionamento (GitHub) e implementação de sistemas escaláveis e intuitivos. Busco sempre aprimorar minhas competências técnicas e agregar valor aos projetos em que atuo.
 
@@ -131,14 +131,14 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
     alt="GitHub Stats" 
     height="200" 
     style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=Larissakich&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
+    src="https://github-readme-stats.vercel.app/api?username=RaryssonDEV&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
   />
 
 <img 
       align="left" 
       alt="GitHub Stats" 
       height="200" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=larissakich&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaryssonDEV&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
   />
 
 </p>
