@@ -144,7 +144,25 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" 
 />
 
+/>
+<img 
+    align="left" 
+    alt="Kotllin" 
+    title="Kotlin"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original-wordmark.svg" 
+/>
 
+/>
+<img 
+    align="left" 
+    alt="Flutter" 
+    title="Flutter"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" 
+/>
 <br/>
 <br/>
 
