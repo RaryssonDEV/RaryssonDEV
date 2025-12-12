@@ -95,6 +95,7 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
 />
+
 <img 
     align="left" 
     alt="Git" 
@@ -103,6 +104,7 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
 />
+
 <img 
     align="left" 
     alt="Python" 
