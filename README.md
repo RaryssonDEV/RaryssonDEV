@@ -137,7 +137,7 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/composer/composer-original.svg" 
 />
 
-/>
+
 <img
  align="left" 
     alt="Laravel" 
