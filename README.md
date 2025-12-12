@@ -146,10 +146,8 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
     title="Laravel"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
-    
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" 
 />
-
 
 <img
  align="left" 
@@ -157,8 +155,7 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
     title="Ionic"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"
-    
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg" 
 />
 
 
