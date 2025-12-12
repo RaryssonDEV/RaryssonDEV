@@ -73,22 +73,6 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
 />
 <img 
     align="left" 
-    alt="Oracle" 
-    title="Oracle"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Bootstrap"
-    title="Bootstrap" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" 
-/>
-<img 
-    align="left" 
     alt="PostgreSQL" 
     title="PostgreSQL"
     width="30px" 
@@ -105,27 +89,11 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
 />
 <img 
     align="left" 
-    alt="Redux" 
-    title="Redux"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" 
-/>
-<img 
-    align="left" 
     alt="MySQL" 
     title="MySQL"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
-/>
-<img 
-    align="left" 
-    alt="Node.JS" 
-    title="Node.JS"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" 
 />
 <img 
     align="left" 
@@ -144,25 +112,6 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" 
 />
 
-/>
-<img 
-    align="left" 
-    alt="Kotllin" 
-    title="Kotlin"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original-wordmark.svg" 
-/>
-
-/>
-<img 
-    align="left" 
-    alt="Flutter" 
-    title="Flutter"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" 
-/>
 <br/>
 <br/>
 
