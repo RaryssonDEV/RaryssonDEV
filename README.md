@@ -118,6 +118,7 @@ align="left"
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" 
 />
+
 <img
  align="left" 
     alt="PHP" 
@@ -126,15 +127,17 @@ align="left"
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" 
 />
+
 <img
  align="left" 
     alt="Postman" 
     title="Postman"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" 
 
 />
+
 <img
  align="left" 
     alt="Composer" 
