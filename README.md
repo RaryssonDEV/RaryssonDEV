@@ -87,6 +87,7 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" 
 />
+
 <img 
     align="left" 
     alt="MySQL" 
@@ -139,7 +140,26 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvim
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/composer/composer-original.svg" 
 />
 
+<img
+ align="left" 
+    alt="Laravel" 
+    title="Laravel"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+    
+/>
 
+
+<img
+ align="left" 
+    alt="Ionic" 
+    title="Ionic"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"
+    
+/>
 
 
 <br/>
