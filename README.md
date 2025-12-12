@@ -2,7 +2,11 @@
 
 **`Desenvolvedor FullStack`**
 
-Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento Full Stack. Tenho experiência prática em HTML, CSS, JavaScript, Bootstrap e manipulação do DOM, além de conhecimentos em banco de dados (Oracle PL/SQL). Já desenvolvi projetos utilizando React, Redux e JSON Server, trabalhando com controle de estado global e responsividade. Além disso, possuo habilidades em gestão de versionamento (GitHub) e implementação de sistemas escaláveis e intuitivos. Busco sempre aprimorar minhas competências técnicas e agregar valor aos projetos em que atuo.
+Sou estudante de Análise e Desenvolvimento de Sistemas e atuo como Desenvolvedor e Automações. Trabalho com PHP, Laravel, JavaScript, React, Angular, Ionic, Java e Python, além de automações com n8n, Power Automate e integrações via API.
+
+Tenho experiência em desenvolvimento web, criação de interfaces responsivas, APIse automações que aumentam produtividade. Também atuo com bancos de dados, PL/SQL, Power BI e Python para tratamento e análise de dados.
+
+Sou apaixonado por tecnologia e busco sempre entregar soluções eficientes, escaláveis e bem estruturadas, combinando desenvolvimento, automação e dados.
 
 
 ### 🤖 Linguagens e Tecnologias
