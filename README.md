@@ -19,6 +19,7 @@ Sou apaixonado por tecnologia e busco sempre entregar soluções eficientes, esc
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
 />
+
 <img 
     align="left" 
     alt="CSS" 
@@ -27,6 +28,7 @@ Sou apaixonado por tecnologia e busco sempre entregar soluções eficientes, esc
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
 />
+
 <img 
     align="left" 
     alt="JavaScript" 
@@ -35,6 +37,7 @@ Sou apaixonado por tecnologia e busco sempre entregar soluções eficientes, esc
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
 />
+
 <img 
     align="left" 
     alt="TypeScript"
@@ -43,6 +46,7 @@ Sou apaixonado por tecnologia e busco sempre entregar soluções eficientes, esc
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
 />
+
 <img 
     align="left" 
     alt="Vue.JS" 
@@ -51,14 +55,16 @@ Sou apaixonado por tecnologia e busco sempre entregar soluções eficientes, esc
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" 
 />
+
 <img 
-    align="left" 
-    alt="Next.JS" 
-    title="Next.JS"
+align="left" 
+    alt="MySQL" 
+    title="MySQL"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
 />
+
 <img 
     align="left" 
     alt="React"
@@ -67,6 +73,7 @@ Sou apaixonado por tecnologia e busco sempre entregar soluções eficientes, esc
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
 />
+
 <img 
     align="left" 
     alt="Vite.JS" 
@@ -75,6 +82,7 @@ Sou apaixonado por tecnologia e busco sempre entregar soluções eficientes, esc
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" 
 />
+
 <img 
     align="left" 
     alt="PostgreSQL" 
@@ -83,6 +91,7 @@ Sou apaixonado por tecnologia e busco sempre entregar soluções eficientes, esc
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" 
 />
+
 <img 
     align="left" 
     alt="SASS" 
@@ -90,15 +99,6 @@ Sou apaixonado por tecnologia e busco sempre entregar soluções eficientes, esc
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" 
-/>
-
-<img 
-    align="left" 
-    alt="MySQL" 
-    title="MySQL"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
 />
 
 <img 
