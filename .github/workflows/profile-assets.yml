@@ -1,0 +1,119 @@
+name: Profile assets
+
+# Generates every dynamic image used by README.md and commits it to assets/generated/.
+# The README never hot-links a third-party stats service: if a generator fails,
+# the previous SVG stays in place instead of a broken image.
+
+on:
+  schedule:
+    - cron: "17 5 * * *" # daily, 05:17 UTC (off the top of the hour to avoid queue spikes)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-assets.yml
+
+permissions:
+  contents: write # only needed to commit the generated SVGs
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+env:
+  OUT: assets/generated
+  USER_NAME: RaryssonDEV
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      # ---------- Contribution snake (Platane/snk) ----------
+      - name: Snake
+        uses: Platane/snk/svg-only@v3
+        continue-on-error: true
+        with:
+          github_user_name: ${{ env.USER_NAME }}
+          outputs: |
+            ${{ env.OUT }}/snake-dark.svg?palette=github-dark&color_snake=#58A6FF&color_dots=#161B22,#0C2D6B,#1158C7,#388BFD,#79C0FF
+            ${{ env.OUT }}/snake-light.svg?palette=github-light&color_snake=#0969DA&color_dots=#EBEDF0,#B6E3FF,#54AEFF,#0969DA,#0A3069
+
+      # ---------- Top languages (github-readme-stats, generated locally) ----------
+      - name: Top languages (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        continue-on-error: true
+        with:
+          card: top-langs
+          path: ${{ env.OUT }}/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+          options: '{"username":"RaryssonDEV","layout":"compact","langs_count":6,"hide":"html,css,scss,blade","custom_title":"Linguagens · repos públicos","border_radius":10,"bg_color":"0D1117","title_color":"58A6FF","text_color":"F0F6FC","icon_color":"58A6FF","border_color":"30363D"}'
+
+      - name: Top languages (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        continue-on-error: true
+        with:
+          card: top-langs
+          path: ${{ env.OUT }}/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+          options: '{"username":"RaryssonDEV","layout":"compact","langs_count":6,"hide":"html,css,scss,blade","custom_title":"Linguagens · repos públicos","border_radius":10,"bg_color":"FFFFFF","title_color":"0969DA","text_color":"1F2328","icon_color":"0969DA","border_color":"D0D7DE"}'
+
+      # ---------- Stats card (generated now, shown in README once activity grows) ----------
+      - name: Stats (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        continue-on-error: true
+        with:
+          card: stats
+          path: ${{ env.OUT }}/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+          options: '{"username":"RaryssonDEV","show_icons":true,"hide":"stars,issues","hide_rank":true,"include_all_commits":true,"border_radius":10,"bg_color":"0D1117","title_color":"58A6FF","text_color":"F0F6FC","icon_color":"58A6FF","border_color":"30363D"}'
+
+      - name: Stats (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        continue-on-error: true
+        with:
+          card: stats
+          path: ${{ env.OUT }}/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+          options: '{"username":"RaryssonDEV","show_icons":true,"hide":"stars,issues","hide_rank":true,"include_all_commits":true,"border_radius":10,"bg_color":"FFFFFF","title_color":"0969DA","text_color":"1F2328","icon_color":"0969DA","border_color":"D0D7DE"}'
+
+      # ---------- Streak (snapshot of the public instance; old file kept on failure) ----------
+      - name: Streak snapshot
+        shell: bash
+        run: |
+          base="https://streak-stats.demolab.com/?user=${USER_NAME}&border_radius=10"
+          dark="&background=0D1117&border=30363D&stroke=30363D&ring=58A6FF&fire=A855F7&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E"
+          light="&background=FFFFFF&border=D0D7DE&stroke=D0D7DE&ring=0969DA&fire=8250DF&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=0969DA&sideLabels=59636E&dates=59636E"
+          fetch() {
+            tmp="$(mktemp)"
+            if curl -fsSL --retry 3 --retry-delay 5 --max-time 30 "$1" -o "$tmp" \
+               && grep -q "<svg" "$tmp" && ! grep -qi "error" "$tmp"; then
+              mv "$tmp" "$2"
+            else
+              echo "::warning::Streak snapshot failed for $2 — keeping previous file"
+            fi
+          }
+          mkdir -p "$OUT"
+          fetch "${base}${dark}"  "$OUT/streak-dark.svg"
+          fetch "${base}${light}" "$OUT/streak-light.svg"
+
+      # ---------- Commit only if something changed ----------
+      - name: Commit generated assets
+        shell: bash
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$OUT"
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "chore(profile): refresh generated assets"
+          git pull --rebase --autostash
+          git push

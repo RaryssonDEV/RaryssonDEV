@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-label="RaryssonDEV">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#58A6FF" stop-opacity="0"/><stop offset="0.3" stop-color="#58A6FF"/>
+      <stop offset="0.7" stop-color="#A855F7"/><stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="20" width="1200" height="2" fill="url(#line)"/>
+  <text x="600.0" y="66" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#8B949E">RaryssonDEV <tspan fill="#58A6FF">·</tspan> APIs <tspan fill="#58A6FF">·</tspan> integrações <tspan fill="#58A6FF">·</tspan> automação <tspan fill="#58A6FF">·</tspan> dados</text>
+</svg>
