@@ -50,7 +50,7 @@ jobs:
           path: ${{ env.OUT }}/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
-          options: '{"username":"RaryssonDEV","layout":"compact","langs_count":6,"hide":"html,css,scss,blade","custom_title":"Languages · public repos","border_radius":10,"bg_color":"0D1117","title_color":"58A6FF","text_color":"F0F6FC","icon_color":"58A6FF","border_color":"30363D"}'
+          options: '{"username":"RaryssonDEV","layout":"compact","langs_count":6,"hide":"html,css,scss,blade","custom_title":"Linguagens · repos públicos","border_radius":10,"bg_color":"0D1117","title_color":"58A6FF","text_color":"F0F6FC","icon_color":"58A6FF","border_color":"30363D"}'
 
       - name: Top languages (light)
         uses: stats-organization/github-readme-stats-action@v2
@@ -60,7 +60,7 @@ jobs:
           path: ${{ env.OUT }}/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
-          options: '{"username":"RaryssonDEV","layout":"compact","langs_count":6,"hide":"html,css,scss,blade","custom_title":"Languages · public repos","border_radius":10,"bg_color":"FFFFFF","title_color":"0969DA","text_color":"1F2328","icon_color":"0969DA","border_color":"D0D7DE"}'
+          options: '{"username":"RaryssonDEV","layout":"compact","langs_count":6,"hide":"html,css,scss,blade","custom_title":"Linguagens · repos públicos","border_radius":10,"bg_color":"FFFFFF","title_color":"0969DA","text_color":"1F2328","icon_color":"0969DA","border_color":"D0D7DE"}'
 
       # ---------- Stats card (generated now, shown in README once activity grows) ----------
       - name: Stats (dark)
