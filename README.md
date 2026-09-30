@@ -6,7 +6,7 @@
 
 <br>
 
-**Desenvolvedor backend e de automação.** Conecto sistemas por APIs, automatizo o trabalho manual que fica entre eles e transformo dados inconsistentes em informação confiável — principalmente com Python e Node.js. Uso LLMs onde fazem diferença: extração estruturada, pontuação e agentes dentro de fluxos de automação. Também já automatizei fluxos de segurança no IBM QRadar SOAR, e Cybersecurity é a área em que estou me aprofundando.
+**Desenvolvedor backend e de automação.** Conecto sistemas por APIs, automatizo o trabalho manual que fica entre eles e transformo dados inconsistentes em informação confiável principalmente com Python e Node.js. Uso LLMs onde fazem diferença: extração estruturada, pontuação e agentes dentro de fluxos de automação. Também já automatizei fluxos de segurança no IBM QRadar SOAR, e Cybersecurity é a área em que estou me aprofundando.
 
 <sub>Brasília, Brasil · Estudante de Análise e Desenvolvimento de Sistemas</sub>
 
